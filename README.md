@@ -133,6 +133,24 @@ Pipeline([
 
 ![Lime heatmap](images/lime_heatmap.png)
 
+### LIME Results - Instance 51
+**Prediction**: 70% Diabetes Risk
+Key Risk Factors:
+
+- **Glucose** = 145 (>139) - Weight: 0.19 - Primary driver
+- **Age** = 53 (>40) - Weight: 0.10 - Age-related risk
+- **DiabetesPedigreeFunction** = 0.77 - Weight: 0.05 - Genetic factor
+- **Pregnancies** = 9 (>6) - Weight: 0.04 - Pregnancy history
+- **Insulin** = 165 (>129.75) - Weight: 0.04 - Insulin resistance
+
+![Lime for diabets](images/instance51_results.png)
+
+### Summary
+
+- Glucose is the strongest predictor (highest weight)
+- Multiple risk factors combine for high diabetes probability
+- No protective features identified
+- Results align with clinical diabetes indicators
 ## 📊 Interpretation Guidelines
 
 ### What Makes Results Meaningful?
