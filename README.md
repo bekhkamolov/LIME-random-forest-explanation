@@ -1,1 +1,1 @@
-# LIME-method-to-explaine-RandomForest
+# LIME-method-to-explain-RandomForest
